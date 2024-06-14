@@ -13,7 +13,7 @@ import { useState } from "react";
 const Footer = () => {
   const [message, setMessage] = useState();
   const sendMessage = () => {
-    window.location = `https://wa.me/7350403908?text=${message}`;
+    window.location = `https://wa.me/8519801753?text=${message}`;
   };
   return (
     <>
@@ -32,13 +32,13 @@ const Footer = () => {
                 <Link>
                   <i
                     onClick={() => {
-                      window.location = `https://wa.me/7350403908?text=Say Hello..!!`;
+                      window.location = `https://wa.me/8519801753?text=Say Hello..!!`;
                     }}
                   >
                     {<IoLogoWhatsapp />}
                   </i>
                 </Link>
-                <a href="https://instagram.com/khamkar_pradip25">
+                <a href="https://www.instagram.com/abdulmuqsit_53492">
                   <i>{<SlSocialInstagram />}</i>
                 </a>
                 <Link to="#">
@@ -58,21 +58,21 @@ const Footer = () => {
                 <i>
                   <MdPhoneForwarded />
                 </i>
-                +91 7350403908
+                +91 8519801753
               </Link>
 
               <a href="mailto:khamkarpradip20@gmail.com" className="links">
                 <i>
                   <MdOutlineMarkEmailRead />
                 </i>
-                khamkarpradip20@gmail.com
+                Abdulmuqsit704@gmail.com
               </a>
 
               <Link className="links">
                 <i>
                   <RiMapPin2Line />
                 </i>
-                Pune , India -413728
+                Hyderabad , India -500067
               </Link>
             </div>
 
@@ -126,7 +126,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="credit">
-            Created By <span>Pradip Khamkar </span> | All Right Reserved
+            Created By <span>Abdul Muqsit</span> | All Right Reserved
           </div>
         </section>
       </footer>
